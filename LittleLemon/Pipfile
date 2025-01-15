@@ -1,11 +1,15 @@
 [[source]]
 url = "https://pypi.org/simple"
-verify_ssl = true
+verify_ssl = false
 name = "pypi"
 
 [packages]
+djangorestframework = "*"
+djangorestframework-xml = "*"
+wheel = "*"
+mysqlclient = "==2.1.1"
 
 [dev-packages]
 
 [requires]
-python_version = "3.13"
+python_version = "3.9"
